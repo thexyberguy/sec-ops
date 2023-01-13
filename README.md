@@ -29,9 +29,13 @@ Endpoint
 
 ## Your task
 
-As a secops engineer at wafi ,  you are presented with the endpoint and repository.
+As a secops engineer at wafi ,  you are presented with the web application and repository.
 
-Document and  provide remedy to  discovered vulnerabilities.
+
+Perform a vulnerability assessment of a provided web application and  repositoy.
+
+provide a detailed report of the findings. The report should include a list of vulnerabilities discovered, the risk level of each vulnerability, and recommendations for remediation
+
 
 
 ###  Submission
