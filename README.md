@@ -1,9 +1,9 @@
-### QA Interview
+### SEC-OPS Interview
 
 
 Hi, If you are viewing this, it is because you scaled through to the next round of the recruitment for the  Secops position at Wafi. Congratulations 🎉✨.
 
-WAFi is a fintech company,therefore, code must be thoroughly tested before deployed to production. As part of the QA Engineer interview process, candidates are asked to showcase their ability in both manual and automated testing.
+WAFi is a fintech company,therefore, code must be thoroughly tested before deployed to production. As part of the SEC-OPS Engineer interview process, candidates are asked to showcase their ability in both manual and automated testing.
 
 
 ## Getting Setup
