@@ -7,7 +7,7 @@ import base64
 from django.http import HttpResponse, JsonResponse
 from django.utils.safestring import mark_safe
 
-from security.models import User
+from apps.user.models import User
 
 
 def get_users(request, user_id):
@@ -17,7 +17,8 @@ def get_users(request, user_id):
     return HttpResponse(users)
 
 
+
+
 def log(request):
     string = request.GET.get('string', '')
-    print(string)
-    return HttpResponse()
+    return HttpResponse(string)

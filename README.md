@@ -21,7 +21,7 @@ Endpoint
 
  *  api/user/userid  - List a user
 
- *  api/log/{string} -  To log a string
+ *  api/log?string={string} -  To log a string
 
 ## Running the App
 

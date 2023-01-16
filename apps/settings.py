@@ -12,15 +12,18 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 
 import os
 
+from pathlib import Path
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-SECRET_KEY = 't_5%*+c*m65=djt-dz&%v6yey+lxo1h)f8_2anyzi=(^d&j(k6'
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+SECRET_KEY = 'abl1^-@!u3h@g(p3!lmf(w!x!ajkw((k-el-1b3l-_prk#(^f('
 
 DEBUG = True
 
 ALLOWED_HOSTS = []
 
+ROOT_URLCONF = 'apps.urls'
 
 # Application definition
 
@@ -31,7 +34,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'security',
+    'apps.user',
 ]
 
 MIDDLEWARE = [
@@ -61,13 +64,13 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'user.wsgi.application'
+WSGI_APPLICATION = 'apps.wsgi.application'
 
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 
@@ -99,3 +102,8 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
+
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+STATIC_URL = 'static/'
+
