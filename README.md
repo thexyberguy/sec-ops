@@ -29,12 +29,9 @@ Endpoint
 
 ## Your task
 
-As a secops engineer at wafi ,  you are presented with the web application and repository.
+As a SecOps Engineer at WAFI, you will be responsible for conducting a thorough vulnerability assessment of a web application, infrastructure and its associated repository.
 
-
-Perform a vulnerability assessment of a provided web application and  repositoy.
-
-provide a detailed report of the findings. The report should include a list of vulnerabilities discovered, the risk level of each vulnerability, and recommendations for remediation
+ Your task is to identify and provide a report on  any security weaknesses present in the application and repository at large. This report should include a list of vulnerabilities discovered, an assessment of the risk level for each vulnerability, and recommendations for remediation. 
 
 
 
