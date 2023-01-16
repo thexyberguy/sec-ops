@@ -1,9 +1,9 @@
-### QA Interview
+### SEC-OPS Interview
 
 
 Hi, If you are viewing this, it is because you scaled through to the next round of the recruitment for the  Secops position at Wafi. Congratulations 🎉✨.
 
-WAFi is a fintech company,therefore, code must be thoroughly tested before deployed to production. As part of the QA Engineer interview process, candidates are asked to showcase their ability in both manual and automated testing.
+WAFi is a fintech company,therefore, code must be thoroughly tested before deployed to production. As part of the SEC-OPS Engineer interview process, candidates are asked to showcase their ability in both manual and automated testing.
 
 
 ## Getting Setup
@@ -29,9 +29,13 @@ Endpoint
 
 ## Your task
 
-As a secops engineer at wafi ,  you are presented with the endpoint and repository.
+As a secops engineer at wafi ,  you are presented with the web application and repository.
 
-Document and  provide remedy to  discovered vulnerabilities.
+
+Perform a vulnerability assessment of a provided web application and  repositoy.
+
+provide a detailed report of the findings. The report should include a list of vulnerabilities discovered, the risk level of each vulnerability, and recommendations for remediation
+
 
 
 ###  Submission
