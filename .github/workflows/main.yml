@@ -17,4 +17,4 @@ jobs:
       with:
         args: >
           -Dsonar.organization=thexyberguy
-          -Dsonar.projectKey=my-thexyberguy
+          -Dsonar.projectKey=thexyberguy
