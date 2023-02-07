@@ -1,5 +1,4 @@
 name: Run Sonarcloud on a code
-
 on:
   push:
     branches:
