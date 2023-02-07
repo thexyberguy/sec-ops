@@ -1,10 +1,5 @@
 name: Run Sonarcloud on a code
-on:
-  push:
-    branches:
-      - master
-  pull_request:
-      types: [opened, synchronize, reopened]
+on: push
 jobs:
   sonarcloud:
     runs-on: ubuntu-latest
