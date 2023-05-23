@@ -1,5 +1,5 @@
 Django==4.0
-requests==2.26.0
+requests==2.31.0
 djangorestframework
 #ipdb==0.12.3
 #bandit==1.6.2
